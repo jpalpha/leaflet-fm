@@ -22,7 +22,7 @@ for (var i = 0; i < geojson.length; i++) {
   var myTitle = geojson[i].fields.titre;
   var myIcon = L.icon({
     iconUrl:
-      "https://raw.githubusercontent.com/jpalpha/leaflet-fm/main/public" +
+      "https://jpalpha.github.io/leaflet-fm/public/" +
       getIcon(
         geojson[i].fields.categorie1,
         geojson[i].fields.categorie2,
