@@ -8,7 +8,12 @@ var tiles = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   }),
   latlng = L.latLng(46.90296, 1.90925);
 
-var map = L.map("map", { center: latlng, zoom: 6, layers: [tiles] });
+var map = L.map("map", {
+  center: latlng,
+  zoom: 6,
+  layers: [tiles],
+  tap: false
+});
 
 var markersCluster = new L.MarkerClusterGroup();
 
