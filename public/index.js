@@ -17,6 +17,7 @@ var map = L.map("map", {
 
 var markersCluster = new L.MarkerClusterGroup();
 
+// Pour FMP
 //var geojson = $$DATA;
 for (var i = 0; i < geojson.length; i++) {
   var latLng = new L.LatLng(
